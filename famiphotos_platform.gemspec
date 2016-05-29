@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = FamiphotosPlatform::VERSION
   s.authors     = ["nakamura shinichirou"]
   s.email       = ["naka5313@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of FamiphotosPlatform."
-  s.description = "TODO: Description of FamiphotosPlatform."
+  s.homepage    = ""
+  s.summary     = "Famiphotosで使う共通ロジック."
+  s.description = "モデルのBaseクラスなどの共通系ロジックをまとめる予定"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
