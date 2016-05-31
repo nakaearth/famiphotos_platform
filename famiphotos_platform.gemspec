@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.6"
 
   s.add_development_dependency "mysql2"
+  s.add_development_dependency "omniauth-twitter"
 end
