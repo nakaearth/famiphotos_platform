@@ -20,5 +20,12 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.6"
 
   s.add_development_dependency "mysql2"
+  # 認証系
   s.add_development_dependency "omniauth-twitter"
+  # template engine
+  s.add_development_dependency "slim-rails"
+  # 複数DB対応
+  s.add_development_dependency 'switch_point'
+  # dbスキーマ管理
+  s.add_development_dependency 'ridgepole'
 end
