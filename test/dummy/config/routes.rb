@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-
-  mount FamiphotosPlatform::Engine => "/famiphotos_platform"
+  mount FamiphotosPlatform::Engine, at: '/'
 end
