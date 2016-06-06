@@ -1,0 +1,27 @@
+mysql: &mysql
+  adapter: mysql2
+  username: root
+  password:
+  database: famiphotos_test
+
+defaults: &defaults
+  pool: 5
+  timeout: 5000
+  host: localhost
+  <<: *mysql
+
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+  
+famiphotos_master_test:
+  <<: *defaults
+
+famiphotos_slave_test:
+  <<: *defaults

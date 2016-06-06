@@ -1,0 +1,4 @@
+require 'oauth_access_grants.schema'
+require 'oauth_access_tokens.schema'
+require 'oauth_applications.schema'
+require 'users.schema'

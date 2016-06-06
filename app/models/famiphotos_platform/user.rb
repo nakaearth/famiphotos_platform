@@ -1,6 +1,7 @@
 module FamiphotosPlatform
   class User < FamiphotoBase
     include Encryptedable
+    self.table_name = 'users'
 
     attr_encrypted :uid
 

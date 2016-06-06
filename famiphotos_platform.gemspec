@@ -28,4 +28,17 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'switch_point'
   # dbスキーマ管理
   s.add_development_dependency 'ridgepole'
+  # platform test
+  s.add_development_dependency 'minitest'
+  s.add_development_dependency 'minitest-rails'
+  # メソッドmockを追加できる様にする
+  s.add_development_dependency 'minitest-stub_any_instance'
+  # constをstub出来るようにする
+  s.add_development_dependency 'minitest-stub-const'
+  # let文で遅延読み込みを使えるようにする
+  s.add_development_dependency 'minitest-bang'
+  # 行番号指定でテスト実行出来る様にする
+  s.add_development_dependency 'minitest-line'
+  s.add_development_dependency 'minitest-reporters' # テスト結果の表示を整形
+  s.add_development_dependency 'factory_girl_rails'
 end
