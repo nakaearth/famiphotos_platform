@@ -2,7 +2,10 @@ PATH
   remote: .
   specs:
     famiphotos_platform (0.0.1)
+      omniauth-twitter
       rails (~> 4.2.6)
+      slim-rails
+      switch_point
 
 GEM
   remote: https://rubygems.org/
@@ -163,10 +166,7 @@ DEPENDENCIES
   minitest-stub-const
   minitest-stub_any_instance
   mysql2
-  omniauth-twitter
   ridgepole
-  slim-rails
-  switch_point
 
 BUNDLED WITH
    1.12.3

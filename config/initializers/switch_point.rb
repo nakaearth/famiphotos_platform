@@ -1,3 +1,5 @@
+require 'switch_point'
+
 SwitchPoint.configure do |config|
   if Rails.env.test?
     config.define_switch_point :famiphoto,

@@ -21,11 +21,11 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "mysql2"
   # 認証系
-  s.add_development_dependency "omniauth-twitter"
+  s.add_dependency "omniauth-twitter"
   # template engine
-  s.add_development_dependency "slim-rails"
+  s.add_dependency "slim-rails"
   # 複数DB対応
-  s.add_development_dependency 'switch_point'
+  s.add_dependency 'switch_point'
   # dbスキーマ管理
   s.add_development_dependency 'ridgepole'
   # platform test
