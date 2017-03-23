@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    famiphotos_platform (0.0.1)
+    famiphotos_platform (0.0.2)
       omniauth-twitter
       rails (~> 5)
       slim-rails
