@@ -26,8 +26,6 @@ Gem::Specification.new do |s|
   s.add_dependency "slim-rails"
   # 複数DB対応
   s.add_dependency 'switch_point'
-  # dbスキーマ管理
-  s.add_development_dependency 'ridgepole'
   # platform test
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'minitest-rails'
