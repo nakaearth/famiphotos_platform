@@ -2,7 +2,7 @@ module IdEncryptable
   extend ActiveSupport::Concern
 
   # クラスメソッド
-  module ClassMethods
+  class_methods do
     def encrypt_id(id)
       Base64.encode64(id)
     end
